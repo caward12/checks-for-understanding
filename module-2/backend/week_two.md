@@ -46,17 +46,17 @@ Now how would you find the owner of the team with an id of 4?
 ### Optional Questions
 
 1. Name your five favorite ActiveRecord methods (i.e. methods your models inherit from ActiveRecord) and describe what they do. 
-  -all - returns all of the records for that table
-  -count - returns the number of records in that table
-  -find() - returns the object/record that matches the id in the ()
-  -find_by() - allows you to search for objects by column names other than id - but only returns the first matching record
-  -where() - similar to find_by() but will return all matching records. 
+  - all - returns all of the records for that table
+  - count - returns the number of records in that table
+  - find() - returns the object/record that matches the id in the ()
+  - find_by() - allows you to search for objects by column names other than id - but only returns the first matching record
+  - where() - similar to find_by() but will return all matching records. 
 2. Name your three favorite ActiveRecord rake tasks and describe what they do.
-  -rake db:create_migration - creates the migration file to create/edit a table
-  -rake db:environment:set/rake db:test:prepare - make it so when you run your test it is using the correct environment database - test
-  -rake db:migrate - runs migration files to create/edit table in database
+  - rake db:create_migration - creates the migration file to create/edit a table
+  - rake db:environment:set/rake db:test:prepare - make it so when you run your test it is using the correct environment database - test
+  - rake db:migrate - runs migration files to create/edit table in database
 3. What two columns does `t.timestamps null: false` create in our database?
-  -created_at and updated_at
+  - created_at and updated_at
 4. In a database that's holding schools and teachers, what will be the relationship between schools and teachers?
   - one to many (a school has many teachers but a teacher only has one school)
 5. In the same database, what will you need to do to create this relationship (draw a schema diagram)?
